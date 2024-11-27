@@ -7,6 +7,7 @@ import { EditInterestComponent } from '../edit-interest/edit-interest.component'
 import { KebaCasePipe } from '../keba-case.pipe';
 import { DatePlPipe } from '../date-pl.pipe';
 import { InterestService } from '../interest.service';
+import { duplicateInterestValidator } from '../duplicate-interest.validator';
 
 @Component({
   selector: 'app-business-card',
